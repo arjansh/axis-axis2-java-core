@@ -442,9 +442,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git:https://gitbox.apache.org/repos/asf/axis-axis2-java-core.git</connection>
-        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/axis-axis2-java-core.git</developerConnection>
-        <url>https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=summary</url>
+        <connection>scm:git:https://github.com/arjansh/axis-axis2-java-core.git</connection>
+        <developerConnection>scm:git:https://github.com/arjansh/axis-axis2-java-core.git</developerConnection>
+        <url>https://github.com/arjansh/axis-axis2-java-core</url>
         <tag>HEAD</tag>
     </scm>
     <issueManagement>
@@ -452,11 +452,18 @@
         <url>http://issues.apache.org/jira/browse/AXIS2</url>
     </issueManagement>
     <distributionManagement>
-        <site>
-            <id>site</id>
-            <url>scm:git:https://gitbox.apache.org/repos/asf/axis-site.git</url>
-        </site>
-    </distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>internal releases</name>
+			<url>http://repo.humaninference.com/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>internal snapshots</name>
+			<url>http://repo.humaninference.com/content/repositories/snapshots</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
 
     <properties>
         <neethi.version>3.2.0</neethi.version>
