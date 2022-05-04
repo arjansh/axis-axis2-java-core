@@ -30,6 +30,13 @@
 
     <url>http://axis.apache.org/axis2/java/core/</url>
 
+    <scm>
+        <connection>scm:git:https://github.com/arjansh/axis-axis2-java-core.git</connection>
+        <developerConnection>scm:git:https://github.com/arjansh/axis-axis2-java-core.git</developerConnection>
+        <url>https://github.com/arjansh/axis-axis2-java-core</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
