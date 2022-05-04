@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.apache.axis2</groupId>
         <artifactId>systests</artifactId>
-        <version>1.8.1-HUMANINFERENCE</version>
+        <version>1.8.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>SOAP12TestServiceC</artifactId>
@@ -35,7 +35,7 @@
         <connection>scm:git:https://github.com/arjansh/axis-axis2-java-core.git</connection>
         <developerConnection>scm:git:https://github.com/arjansh/axis-axis2-java-core.git</developerConnection>
         <url>https://github.com/arjansh/axis-axis2-java-core</url>
-        <tag>v1.8.1-HUMANINFERENCE</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
